@@ -8,18 +8,19 @@ This repository contains the jupyter notebooks and requirements used for my proj
 
 
 I used Selenium with Chrome Driver and Beautiful Soup to scrape 1000 search result pages on PubMed for the search term 'stem cell therapy'. The resulting dataframe contained 9926 rows and 12 columns, each columns holding information about an article that a user can find in PubMed in the order of relevance (deemed by PubMed):
-    - `article_id`: PubMed ID for the article
-    - `title`: article's title
-    - `publication_type`: the type of publication
-    - `abstract`: the article's abstract
-    - `journal_title`: the title of the journal the article was published in
-    - `citation`: citation key
-    - `n_authors`: number of authors
-    - `affiliations`: author affiliations (universities, company, country, etc)
-    - `n_affiliations`: the number of affiliations associated with the article
-    - `n_citations`: the number of times the publication was cited
-    - `keywords`: keywords linked to publication by PubMed
-    - `n_references`: the number of references used in the publication
+
+- `article_id`: PubMed ID for the article
+- `title`: article's title
+- `publication_type`: the type of publication
+- `abstract`: the article's abstract
+- `journal_title`: the title of the journal the article was published in
+- `citation`: citation key
+- `n_authors`: number of authors
+- `affiliations`: author affiliations (universities, company, country, etc)
+- `n_affiliations`: the number of affiliations associated with the article
+- `n_citations`: the number of times the publication was cited
+- `keywords`: keywords linked to publication by PubMed
+- `n_references`: the number of references used in the publication
 
 
 ### 1_InitialCleaningEDA.ipynb
